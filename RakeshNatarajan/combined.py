@@ -110,7 +110,11 @@ fig.update_layout(
 
 import streamlit as st
 # Set the title and a short description
-st.title('COVID-19 dashboard')
+st.title('COVID-19 Dashboard')
+st.write(""" 
+         Theresa Boyer, Karin Halsey, Rakesh Natarajan, Medha Kaul
+         """)
+
 # Display the plot
 st.plotly_chart(fig)
 
