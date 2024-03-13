@@ -101,8 +101,8 @@ fig.update_layout(
     title='Daily COVID-19 Recoveries, Cases, and Deaths in the United States <br><sup>Data Source: <a href="https://github.com/CSSEGISandData/COVID-19"> COVID-19 Data Repository by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University </a> </sup>',
     height=900,
     xaxis=dict( showticklabels=False),
-    yaxis=dict(title='Recoveries', showline=False, showgrid=False),  
-    yaxis2=dict(title='Cases', showline=False, showgrid=False),  
+    yaxis=dict(title='Cases', showline=False, showgrid=False),  
+    yaxis2=dict(title='Recoveries', showline=False, showgrid=False),  
     yaxis3=dict(title='Deaths', showline=False, showgrid=False),  
     yaxis3_showgrid=True, 
     xaxis3=dict(rangeslider=dict(visible=True, thickness=0.05), type="date")
